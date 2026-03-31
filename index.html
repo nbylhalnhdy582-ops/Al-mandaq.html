@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدينة المندق | السعودية بعيون تقنية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- شاشة الترحيب -->
+    <div id="startScreen" class="start-screen">
+        <h1>🌄 مرحب بك في المندق</h1>
+        <p>مدينة المندق الخلابة بطبيعتها الخضراء وأجوائها المعتدلة.</p>
+        <button onclick="startSite()" class="btn start-btn">ابدأ الجولة</button>
+    </div>
+
+    <!-- المحتوى الأساسي -->
+    <div id="mainContent">
+
+        <nav>
+            <div class="logo">المندق</div>
+            <ul>
+                <li><a href="#main-title">الرئيسية</a></li>
+                <li><a href="#features">عن المدينة</a></li>
+                <li><a href="#gallery">المعالم</a></li>
+                <li><a href="#contact">الختام</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
+        <!-- زر الترحيب داخل الصفحة -->
+        <button onclick="showWelcome()" class="btn">ترحيب</button>
+
+        <div id="welcomeBox" class="welcome-box">
+            <h3>أهلاً بك في المندق 🌿</h3>
+            <p>نتمنى لك جولة ممتعة بين طبيعة المندق الخلابة وأجوائها الجميلة.</p>
+        </div>
+
+        <h1 id="main-title">مدينة المندق</h1>
+
+        <p class="par">
+            مدينة المندق إحدى مدن منطقة الباحة في المملكة العربية السعودية،
+            وتتميز بموقعها الجبلي المرتفع ومناخها المعتدل صيفًا،
+            مما يجعلها وجهة سياحية مميزة.
+        </p>
+
+        <p id="features">
+            تشتهر بطبيعتها الخضراء وكثرة الغابات مثل غابة رغدان،
+            كما تنتشر فيها المزارع والمنتزهات الطبيعية التي تجذب الزوار.
+        </p>
+
+        <h2>مميزات مدينة المندق</h2>
+
+        <p>
+            - المناخ المعتدل <br>
+            - الطبيعة الخلابة <br>
+            - الهدوء وجمال المناظر <br>
+            - موقعها المميز في جبال السروات
+        </p>
+
+        <!-- الصور -->
+        <div id="gallery" class="gallery">
+            <img src="mandaq1.jpg.JPG" alt="mandaq1">
+            <img src="mandaq2.jpg.JPG" alt="mandaq2">
+        </div>
+
+        <!-- الجدول تحت الصور -->
+        <h2>جدول أهم الأخبار</h2>
+        <table>
+            <tr>
+                <th>عنوان الخبر</th>
+                <th>الوصف</th>
+            </tr>
+            <tr>
+                <td>تطوير المنتزهات</td>
+                <td>تم تطوير عدد من المنتزهات لزيادة الجذب السياحي.</td>
+            </tr>
+            <tr>
+                <td>فعالية وطنية</td>
+                <td>إقامة فعاليات احتفالية بمناسبة اليوم الوطني.</td>
+            </tr>
+        </table>
+
+        <p id="contact">
+            وفي الختام، تعتبر مدينة المندق من أجمل مدن منطقة الباحة،
+            وتجمع بين جمال الطبيعة وراحة الأجواء.
+        </p>
+
+        <!-- التذييل -->
+        <footer>
+            
+            <div class="footer-box">
+                <p>عمل الطالبة:اسيا ابكر/ اسم المجموعة:الباحة وعسير</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
